@@ -10,3 +10,5 @@ hello/itemservice/web/validation/ValidationItemControllerV1.java
  hello.itemservice.web.validation.ValidationItemControllerV1
 hello/itemservice/web/validation/ValidationItemControllerV2.java
  hello.itemservice.web.validation.ValidationItemControllerV2
+hello/itemservice/web/validation/ItemValidator.java
+ hello.itemservice.web.validation.ItemValidator
