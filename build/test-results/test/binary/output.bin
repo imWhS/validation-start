@@ -1,0 +1,31 @@
+n15:37:00.841 [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+z15:37:00.843 [Test worker] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+±15:37:00.845 [Test worker] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+”15:37:00.846 [Test worker] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+²15:37:00.846 [Test worker] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+°15:37:00.846 [Test worker] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+ñ15:37:00.848 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+15:37:00.858 [Test worker] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+ç15:37:00.899 [Test worker] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+ÿ15:37:00.901 [Test worker] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+€15:37:00.901 [Test worker] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+ù15:37:00.901 [Test worker] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+ç15:37:00.901 [Test worker] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+„15:37:00.901 [Test worker] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+Æ15:37:00.925 [Test worker] DEBUG org.hibernate.validator.internal.metadata.descriptor.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Min, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, constraintLocationKind=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@62a443d5, message={javax.validation.constraints.Min.message}, value=1000, payload=[Ljava.lang.Class;@1bba439e}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+É15:37:00.925 [Test worker] DEBUG org.hibernate.validator.internal.metadata.descriptor.ConstraintDescriptorImpl - Adding composing constraint: ConstraintDescriptorImpl{annotation=j.v.c.Max, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, constraintLocationKind=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@14e536d8, message={javax.validation.constraints.Max.message}, value=1000000, payload=[Ljava.lang.Class;@5d8a2169}, constraintType=GENERIC, valueUnwrapping=DEFAULT}.
+‡15:37:00.944 [Test worker] DEBUG org.hibernate.validator.resourceloading.PlatformResourceBundleLocator - ValidationMessages not found.
+’15:37:00.945 [Test worker] DEBUG org.hibernate.validator.resourceloading.PlatformResourceBundleLocator - ContributorValidationMessages not found.
+›15:37:00.960 [Test worker] DEBUG org.hibernate.validator.resourceloading.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+‡15:37:00.964 [Test worker] DEBUG org.hibernate.validator.resourceloading.PlatformResourceBundleLocator - ValidationMessages not found.
+’15:37:00.964 [Test worker] DEBUG org.hibernate.validator.resourceloading.PlatformResourceBundleLocator - ContributorValidationMessages not found.
+›15:37:00.964 [Test worker] DEBUG org.hibernate.validator.resourceloading.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+‡15:37:00.965 [Test worker] DEBUG org.hibernate.validator.resourceloading.PlatformResourceBundleLocator - ValidationMessages not found.
+’15:37:00.965 [Test worker] DEBUG org.hibernate.validator.resourceloading.PlatformResourceBundleLocator - ContributorValidationMessages not found.
+›15:37:00.965 [Test worker] DEBUG org.hibernate.validator.resourceloading.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+åvalidation = ConstraintViolationImpl{interpolatedMessage='9999 ì´í•˜ì—¬ì•¼ í•©ë‹ˆë‹¤', propertyPath=quantity, rootBeanClass=class hello.itemservice.domain.item.Item, messageTemplate='{javax.validation.constraints.Max.message}'}
+)validation = 9999 ì´í•˜ì—¬ì•¼ í•©ë‹ˆë‹¤
+ùvalidation = ConstraintViolationImpl{interpolatedMessage='1000ì—ì„œ 1000000 ì‚¬ì´ì—¬ì•¼ í•©ë‹ˆë‹¤', propertyPath=price, rootBeanClass=class hello.itemservice.domain.item.Item, messageTemplate='{org.hibernate.validator.constraints.Range.message}'}
+7validation = 1000ì—ì„œ 1000000 ì‚¬ì´ì—¬ì•¼ í•©ë‹ˆë‹¤
+évalidation = ConstraintViolationImpl{interpolatedMessage='ê³µë°±ì¼ ìˆ˜ ì—†ìŠµë‹ˆë‹¤', propertyPath=itemName, rootBeanClass=class hello.itemservice.domain.item.Item, messageTemplate='{javax.validation.constraints.NotBlank.message}'}
+(validation = ê³µë°±ì¼ ìˆ˜ ì—†ìŠµë‹ˆë‹¤
